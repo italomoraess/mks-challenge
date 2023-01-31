@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Header } from '@/components/Header'
+import { ProductsCard } from '@/components/ProductsCard'
 import { Footer } from '@/components/Footer'
 import { GlobalStyles } from '@/styles/global'
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main >
         <Header />
+        <ProductsCard />
         <Footer />
       </main>
     </>

@@ -13,9 +13,9 @@ export function Header() {
     <Styles.Header>
       <Styles.Container>
         <Link href='/'>
-        <Styles.Logo>
-          <strong>MKS</strong><p>Sistemas</p>
-        </Styles.Logo>
+          <Styles.Logo>
+            <strong>MKS</strong><p>Sistemas</p>
+          </Styles.Logo>
         </Link>
         <Styles.Cart onClick={() => qtd + 1}>
           <Styles.Icon />

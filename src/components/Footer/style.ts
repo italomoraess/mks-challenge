@@ -9,4 +9,5 @@ export const Footer = styled.footer`
   width: 100%;
   height: 34px;
   background-color: #EEEEEE;
+  font-family: Montserrat;
 `;
